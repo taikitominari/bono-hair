@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    font-family: YuGothic,Meiryo,sans-serif;
+    text-decoration: none;
+}
+body {
+    height: 2000px
+}
+/* common-style */
+.title-style {
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.landing-point-a {
+    padding-top: 270px;
+    margin-top: -270px;
+}
+.landing-point-b {
+    padding-top: 100px;
+    margin-top: -100px;
+} 
+/* top & header */
+.top-wrapper {
+    background-image: url("../img/IMG_9411.jpeg");
+    background-size: cover;
+    height: 780px;
+    width: 100%;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 50px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+.header-title {
+    line-height: 50px;
+    padding-left: 50px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.header-list {
+    margin: 0 0 0 auto;
+}
+.header-list li {
+    display: inline-block;
+}
+.header-list li a {
+    padding: 0 20px;
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    display: inline-block;
+}
+.header-list li a:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: 1s;
+}
+.h-reservation {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    line-height: 50px;
+    margin: 0 50px;
+    padding: 0 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.h-reservation:hover {
+    background-color: rgba(0, 153, 51, 0.8);
+    color: #000;
+    transition: 0.4s;
+}
+
+/* main & container */
+.main-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* ABOUT style */
+.about {
+    margin-top: 150px;
+}
+.about-text {
+    padding-top: 50px;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+/* HIGHLIGHTS style */
+.highlights {
+    margin-top: 300px;
+}
+.subtitle {
+    text-align: center;
+    padding: 40px 0 70px 0; 
+}
+.hl-item-wrap {
+    display: flex;
+}
+.hl-item-wrap iframe {
+    flex: 6;
+}
+.hl-item {
+    flex: 4;
+    padding-left: 50px;
+}
+.hl-item-title {
+    font-size: 30px;
+    letter-spacing: 1px;
+    border-bottom: 1px dashed rgb(0, 153, 51);
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+.hl-item-title span {
+    font-size: 25px;
+}
+.hl-shop-info {
+    line-height: 25px;
+    font-size: 16px;
+}
+.hl-text {
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 30px;   
+    line-height: 25px;
+    letter-spacing: 1px;
+}
