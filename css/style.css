@@ -3,9 +3,7 @@
     font-family: YuGothic,Meiryo,sans-serif;
     text-decoration: none;
 }
-body {
-    height: 2000px
-}
+
 /* common-style */
 .title-style {
     font-size: 45px;
@@ -18,9 +16,10 @@ body {
     margin-top: -270px;
 }
 .landing-point-b {
-    padding-top: 100px;
-    margin-top: -100px;
+    padding-top: 110px;
+    margin-top: -110px;
 } 
+
 /* top & header */
 .top-wrapper {
     background-image: url("../img/IMG_9411.jpeg");
@@ -57,7 +56,7 @@ header {
     display: inline-block;
 }
 .header-list li a:hover {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 153, 51, 0.8);
     transition: 1s;
 }
 .h-reservation {
@@ -71,7 +70,6 @@ header {
 }
 .h-reservation:hover {
     background-color: rgba(0, 153, 51, 0.8);
-    color: #000;
     transition: 0.4s;
 }
 
@@ -87,7 +85,7 @@ header {
 
 /* ABOUT style */
 .about {
-    margin-top: 150px;
+    padding-top: 150px;
 }
 .about-text {
     padding-top: 50px;
@@ -97,7 +95,7 @@ header {
 
 /* HIGHLIGHTS style */
 .highlights {
-    margin-top: 300px;
+    padding-top: 300px;
 }
 .subtitle {
     text-align: center;
@@ -132,5 +130,49 @@ header {
     font-weight: bold;
     padding-top: 30px;   
     line-height: 25px;
+    letter-spacing: 1px;
+}
+
+/* STYLIST */
+.stylist {
+    margin-top: 200px;
+}
+.stylist-item-wrap {
+    display: flex;
+    padding-top: 100px;
+}
+.stylist-img-wrap {
+    flex: 4;
+    text-align: center;
+}
+.sl-type {
+    font-size: 15px;
+}
+.stylist-img {
+    border-radius: 50%;
+}
+.stylist-item {
+    flex: 6;
+    padding-left: 60px;
+}
+.stylist-name {
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding: 10px 0 30px 0;
+}
+.name {
+    color: rgba(0, 204, 51, 0.8);
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-left: 20px;
+}
+.sl-list li {
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+.sl-text {
+    padding-top: 20px;
+    line-height: 30px;
+    font-size: 16px;
     letter-spacing: 1px;
 }
