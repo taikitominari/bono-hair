@@ -5,6 +5,10 @@
 }
 
 /* common-style */
+/* .main-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+} */
 .container {
     margin-left: 5%;
     margin-right: 5%;
@@ -76,15 +80,10 @@ header {
     background-color: rgba(0, 153, 51, 0.8);
     transition: 0.4s;
 }
-
-/* main */
-.main-wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 /* ABOUT style */
 .about {
-    padding-top: 150px;
+    padding: 150px 0;
+    background-color: rgba(242,242,242, 0.8);
 }
 .about-text {
     padding-top: 50px;
@@ -94,7 +93,7 @@ header {
 
 /* HIGHLIGHTS style */
 .highlights {
-    padding-top: 300px;
+    padding: 150px 0;
 }
 .subtitle {
     text-align: center;
@@ -134,11 +133,8 @@ header {
 
 /* STYLIST */
 .stylist {
-    margin-top: 100px;
-    padding: 100px 0;
+    padding: 150px 0;
     background-color: rgba(242,242,242, 0.8);
-    /* border-top: 1px solid #cccccc;
-    border-bottom: 1px solid #cccccc; */
 }
 .stylist-item-wrap {
     display: flex;
@@ -180,6 +176,9 @@ header {
     letter-spacing: 1px;
 }
 /* basic-menu */
+.basic-menu-wrap {
+    padding: 150px 0;
+}
 .menu-wrap {
     display: flex;
     flex-wrap: wrap;
@@ -197,9 +196,6 @@ header {
 }
 .menu-item:nth-child(even) {
     margin-left: 50px;
-}
-.basic-menu-wrap {
-    padding-top: 150px;
 }
 .item-content {
     font-size: 13px;
