@@ -95,7 +95,7 @@ header {
 }
 .subtitle {
     text-align: center;
-    padding: 40px 0 70px 0; 
+    padding: 40px 0 60px 0; 
 }
 .hl-item-wrap {
     display: flex;
@@ -205,4 +205,49 @@ header {
 .item-price {
     margin: 0 0 0 auto;
     align-items: center;
+}
+/* reservation */
+.reservation {
+    background-color: rgba(242,242,242, 0.8);
+    padding: 100px 0 100px 0;
+    padding-top: 100px;
+}
+.reservation-wrap {
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+}
+.phone-wrap {
+    flex: 1;
+    text-align: center;
+}
+.phone-wrap h2 {
+    font-size: 30px;
+}
+.reservation-btn {
+    background-color:  rgba(0, 204, 51, 0.8);
+    padding: 20px 40px;
+    margin-top: 30px;
+    color: #fff;
+    display: inline-block;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+.info-wrap {
+    flex: 1;
+    text-align: center;
+}
+.info-wrap p {
+    font-size: 22px;
+}
+.info-wrap p:nth-child(1) {
+    padding-bottom: 50px;
+}
+/* map */
+.map {
+    width: 100%;
+}
+/* footer  */
+footer {
+    background-color: rgba(58,69,75,0.8);
 }
