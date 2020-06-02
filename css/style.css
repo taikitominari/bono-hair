@@ -33,6 +33,7 @@
 }
 header {
     background-color: rgba(0, 0, 0, 0.7);
+    /* background-color:rgba(0, 153, 51, 0.6); */
     height: 50px;
     display: flex;
     position: fixed;
@@ -250,4 +251,24 @@ header {
 /* footer  */
 footer {
     background-color: rgba(58,69,75,0.8);
+    color: #fff;
+}
+.footer-container {
+    display: flex;
+    padding: 80px 0;
+    margin-left: 4%;
+}
+.content-wrap, .f-reservation {
+    padding-left: 100px;
+}
+.footer-title {
+    display: inline-block;
+    font-size: 13px;
+    border-bottom: 1px dashed rgba(0, 204, 51, 0.8);
+    background-size: 3px 2px;
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+}
+.f-reservation-btn {
+    display: block;
 }
