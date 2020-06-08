@@ -1,0 +1,56 @@
+@media screen and (max-width: 1028px) {
+    .f-content-wrap, .f-reservation, .f-sns {
+        padding-left: 40px;
+    }
+    .salon-info-wrap ul li {
+        font-size: 14px;
+    }
+    .f-phone-text {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 960px) {
+    .container {
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+    .stylist-item-wrap {
+        display: block;
+    }
+    .stylist-item {
+        padding: 60px 0 0 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .view {
+        height: 350px;
+    }
+    .info-wrap p {
+        font-size: 17px;
+    }
+ }
+ @media screen and (max-width: 780px) {
+    .header-list, .h-reservation {
+        display: none;
+    }
+    .menu-wrap {
+        display: block;
+    }
+    .menu-item {
+        width: 100%;
+    }
+    .menu-item:nth-child(even) {
+        margin-left: 0;
+    }
+    .footer-container {
+        display: block;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .f-content-wrap, .f-reservation, .f-sns {
+        padding: 60px 0 0 0;
+    }
+    .footer-title {
+        font-size: 20px;
+    }
+ }
