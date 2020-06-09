@@ -299,10 +299,10 @@ footer {
 .f-content-wrap ul li {
     margin-bottom: 20px;
 }
-.f-content-wrap ul li:hover {
-    transition: 0.4s;
-    transform: translateX(3px);
-} 
 .f-content-wrap ul li a{
     color: #fff;
+}
+.f-content:hover{
+    transition: 0.4s;
+    color: rgba(0, 204, 51, 0.8);
 }
