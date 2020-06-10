@@ -4,32 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BONO hair</title>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 <body>
-    <div class="top-wrapper">
+    <!-- Hamburger menu -->
+    <nav id="h-menu">
+        <i class="fa fa-times" id="hide"></i>
+        <ul class="menu-list">
+            <li><a class="m-item" href="#about">ABOUT</a></li>
+            <li><a class="m-item" href="#highlights">HIGHLIGHTS</a></li>
+            <li><a class="m-item" href="#stylist">STYLIST</a></li>
+            <li><a class="m-item" href="#menu">MENU</a></li>
+            <li><a class="m-item" href="#reservation">RESERVATION</a></li>
+        </ul>
+    </nav>
+    <div class="top-wrapper top-fadein">
         <header>
+            <div class="fas fa-bars" id="show"></div>
             <h1 class="header-title">BONO hair</h1>
             <ul class="header-list">
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#highlights">HIGHLIGHTS</a></li>
                 <li><a href="#stylist">STYLIST</a></li>
-                <li><a href="#menu">MENU</a></li>
+                <li><a href="#reservation">RESERVATION</a></li>
             </ul>
             <a class="h-reservation" href="#reservation">予約する</a>
         </header>
     </div>
 <!-- about -->
-    <section class="about">
+    <section class="about fadein">
         <div class="container">
             <div class="title-style landing-point" id="about">ABOUT</div>
             <p class="about-text">あなたの「なりたい」をかなえたい。 なかなかヘアスタイルが決まらない方 カッコイイ、可愛い、さっぱり, あのサッカー選手、韓流スターの髪型、 お任せ、好きにして、など、 あなたのなりたい自分をかなえたい。 を、モットーに岐阜県の関市から、 あなたの「なりたい」を発信していきます。</p>
         </div>
     </section>
  <!-- highlights -->
-    <section class="highlights">
+    <section class="highlights fadein">
         <div class="container">
             <div class="title-style landing-point" id="highlights">HIGHLIGHTS</div>
             <p class="subtitle">落ち着きのある空間を実現</p>
@@ -49,9 +64,9 @@
 <!-- stylist -->
     <section class="stylist">
         <div class="container">
-            <div class="title-style landing-point" id="stylist">STYLIST</div>
+            <div class="title-style landing-point fadein" id="stylist">STYLIST</div>
            
-            <div class="stylist-item-wrap">
+            <div class="stylist-item-wrap fadein">
                 <div class="stylist-img-wrap">
                     <img class="stylist-img" src="img/IMG_9411.jpeg" width="350" height="350">
                 </div>
@@ -67,7 +82,7 @@
                 </div>
             </div>
 <!-- 新人のプロフィールを入れる -->
-            <div class="stylist-item-wrap">
+            <div class="stylist-item-wrap fadein">
                 <div class="stylist-img-wrap">
                     <img class="stylist-img" src="img/IMG_9411.jpeg" width="350" height="350">
                 </div>
@@ -159,13 +174,13 @@
         </div>
     </section>
  <!-- reservation -->
-    <section class="reservation">
+    <section class="reservation fadein">
         <div class="container">
             <h1 class="title-style landing-point" id="reservation">RESERVATION</h1>
             <div class="reservation-wrap">
                 <div class="phone-wrap">
                     <h2>電話番号</h2>
-                    <a class="reservation-btn" href="#">0575-23-9497</a>
+                    <a class="reservation-btn"  href="tel:090-1755-9794">0575-23-9497</a>
                     <p>＊電話予約のみ承ります</p>
                 </div>
                 <div class="info-wrap">
@@ -176,12 +191,12 @@
         </div>
     </section>
     
-    <section class="map-wrap">
+    <section class="map-wrap fadein">
         <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3248.742750024234!2d136.8894136152475!3d35.48590818024029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600306b224bc40d1%3A0x8ae2fff4e134ffa5!2z44CSNTAxLTMyNTcg5bKQ6Zic55yM6Zai5biC5paw55Sw77yR77yS4oiS77yT!5e0!3m2!1sja!2sjp!4v1590998834351!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </section>
 
     <footer>
-        <div class="footer-container">
+        <div class="footer-container fadein">
             <div class="salon-info-wrap">
                 <h2 class="footer-title">SALON INFO</h2>
                 <ul>
@@ -202,7 +217,7 @@
             <div class="f-reservation">
                 <h2 class="footer-title">CONTENT</h2>
                 <p class="f-phone-text">電話番号</p>
-                <a class="f-reservation-btn" href="#">0575-23-9497</a>
+                <a class="f-reservation-btn" href="tel:090-1755-9794">0575-23-9497</a>
                 <p class="f-phone-p">＊電話予約のみ承ります</p>
             </div>
             <div class="f-sns">
@@ -211,6 +226,7 @@
             </div>
         </div>
     </footer>
-
+<script src="js/main.js"></script>
+<script src="js/jquery.js"></script>
 </body>
 </html>
