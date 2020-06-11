@@ -45,8 +45,8 @@
 #h-menu {
     position: fixed;
     background-color: rgba(0, 0, 0, 0.9);
-    height: 400px;
-    top: -400px;
+    height: 350px;
+    top: -350px;
     left: 0;
     width: 100%;
     text-align: center;
@@ -70,7 +70,7 @@ body.open-menu #h-menu {
 }
 .m-item:hover {
     transition: 0.8s;
-    transform: translateY(-5px);
+    transform: translateY(-4px);
     background-color: rgba(0, 153, 51, 0.8);
 }
 /* top & header */
@@ -324,7 +324,7 @@ footer {
     padding: 80px 0;
 }
 .f-content-wrap, .f-reservation, .f-sns {
-    padding-left: 100px;
+    padding-left: 70px;
 }
 .footer-title {
     display: inline-block;

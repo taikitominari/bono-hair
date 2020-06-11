@@ -52,6 +52,9 @@
     .hl-item {
         padding: 50px 0 0 0;
     }
+    .hl-item-title {
+        font-size: 25px;
+    }
     .fas {
         display: block;
     }
