@@ -8,12 +8,18 @@
     .f-phone-text {
         font-size: 14px;
     }
+    .menu-item-wrap {
+        display: block;
+    }
+    .menu-item {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .menu-item:nth-child(even) {
+        margin-left: 0px;
+    }
 }
 @media screen and (max-width: 960px) {
-    .container {
-        margin-left: 6%;
-        margin-right: 6%;
-    }
     .stylist-item-wrap {
         display: block;
     }
@@ -67,15 +73,6 @@
     }
     .header-list, .h-reservation {
         display: none;
-    }
-    .menu-wrap {
-        display: block;
-    }
-    .menu-item {
-        width: 100%;
-    }
-    .menu-item:nth-child(even) {
-        margin-left: 0;
     }
     .reservation-wrap {
         display: block;

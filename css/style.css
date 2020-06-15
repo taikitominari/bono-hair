@@ -13,8 +13,8 @@
 }
 /* common-style */
 .container {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 .title-style {
     font-size: 45px;
@@ -61,7 +61,7 @@
 }
 .h-title {
     position: absolute;
-    top: 8%;
+    top: 30px;
     left: 8%;
     font-size: 28px;
     letter-spacing: 2px;
@@ -70,7 +70,7 @@
 }
 .menu-list {
     position: absolute;
-    top: 25%;
+    top: 150px;
     left: 8%;
 }
 .menu-list li {
@@ -103,7 +103,7 @@ body.open-menu #h-menu {
 .link {
     position: absolute;
     left: 8%;
-    bottom: 70px;
+    top: 550px;
 }
 .link li {
     display: inline-block;
@@ -198,7 +198,7 @@ header {
 }
 .hl-item {
     flex: 4;
-    padding-left: 50px;
+    padding-left: 20px;
 }
 .hl-item-title {
     font-size: 30px;
@@ -278,32 +278,52 @@ header {
 .basic-menu-wrap {
     padding: 150px 0;
 }
-.menu-wrap {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 100px;
-    justify-content: center;
+.menu {
+    padding-top: 40px;
 }
 .menu-item {
-    width: 45%;
-    display: flex;
+    width: 48%;
+    display: inline-block;
     border-bottom: 1px solid #000;
     padding-bottom: 10px;
-    font-size: 15px;
-    text-align: left;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
-.menu-item:nth-child(even) {
-    margin-left: 50px;
+.menu-title {
+    display: inline-block;
+    font-size: 28px;
+    padding-bottom: 3px;
+    margin: 30px 0;
+    color: rgba(0, 204, 51, 0.8);
+    font-weight: bold;
 }
-.item-content {
-    font-size: 13px;
-    padding-top: 10px;
-    font-weight: lighter;
+.menu-item-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-.item-price {
-    margin: 0 0 0 auto;
-    align-items: center;
+.item-wrap {
+    box-sizing: content-box;
+    display: flex;
+    padding-bottom: 15px;
+    position: relative;
+}
+.item-wrap h2 {
+    font-size: 14px;
+}
+.m-text {
+    font-size: 18px !important;
+}
+.item-wrap p {
+    position: absolute;
+    right: 0;
+    padding-left: 20%;
+    font-weight: bold;
+}
+.menu-comment {
+    font-size: 0.7em;
+}
+.perm {
+    color: rgba(0, 204, 51, 0.8);
 }
 /* reservation */
 .reservation {
