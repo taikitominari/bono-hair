@@ -13,7 +13,7 @@
     }
     .menu-item {
         width: 100%;
-        margin-bottom: 25px;
+        margin-bottom: 30px;
     }
     .menu-item:nth-child(even) {
         margin-left: 0px;
@@ -36,6 +36,10 @@
     }
  }
  @media screen and (max-width: 780px) {
+    .container {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
     .title-style {
         font-size: 35px;
     }
@@ -73,6 +77,10 @@
     }
     .header-list, .h-reservation {
         display: none;
+    }
+    .item-wrap p {
+        font-size: 15px;
+        font-weight: lighter;
     }
     .reservation-wrap {
         display: block;
@@ -114,8 +122,13 @@
         width: 200px;
         height: 200px;
     }
-    .item-content {
-        font-size: 10px;
+    .item-wrap {
+        display: block;
+        padding-bottom: 10px;
+    }
+    .item-wrap p {
+        position: static;
+        padding-top: 10px;
     }
     .reservation {
         padding-bottom: 50px;
@@ -125,5 +138,20 @@
     }
     .salon-info-wrap ul li {
         font-size: 13px;
+    }
+    @media screen and (max-width: 500px) {
+        #h-menu {
+            width: 100%;
+            right: -100%;
+        }
+        .m-item {
+            margin-bottom: 20%;
+        }
+        .h-title {
+            top: 3%;
+        }
+        .menu-list {
+            top: 20%;
+        }
     }
  }
