@@ -1,12 +1,13 @@
 @media screen and (max-width: 1028px) {
-    .f-content-wrap, .f-reservation, .f-sns {
-        padding-left: 40px;
+    .f-reservation-btn {
+        font-size: 14px;
+        padding: 8px 15px;
     }
     .salon-info-wrap ul li {
-        font-size: 14px;
+        font-size: 12px;
     }
     .f-phone-text {
-        font-size: 14px;
+        font-size: 13px;
     }
     .menu-item-wrap {
         display: block;
@@ -102,8 +103,14 @@
     .f-content-wrap, .f-reservation, .f-sns {
         padding: 60px 0 0 0;
     }
+    .f-phone-text {
+        font-size: 15px;
+    }
     .footer-title {
         font-size: 20px;
+    }
+    .salon-info-wrap ul li {
+        font-size: 15px;
     }
  }
  
