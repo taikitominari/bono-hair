@@ -61,6 +61,7 @@
 }
 .h-title {
     position: absolute;
+    overflow-y: scroll;
     top: 8%;
     left: 8%;
     font-size: 22px;
@@ -89,12 +90,11 @@
     font-weight: bold;
     border-bottom: 1px solid rgba(0, 153, 51, 0.8);
 }
-.fa-instagram,.fa-twitter,.bono-room {
+.fab {
     border: none;
 }
 body.open-menu #h-menu {
     right: 0;
-    overflow-y: hidden;
 }
 .m-item:hover {
     transition: 0.8s;
@@ -229,9 +229,9 @@ header {
     font-size: 15px;
 }
 .stylist-img {
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    border-radius: 5px;
+    width: 350px;
+    height: 250px;
     z-index: 1 !important;
 }
 .stylist-item {

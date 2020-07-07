@@ -112,9 +112,29 @@
     .salon-info-wrap ul li {
         font-size: 15px;
     }
+    .f-link {
+        display: flex;
+    }
+    .f-sns-item {
+        padding-right: 30px;
+    }
+
  }
  
  @media screen and (max-width: 500px) {
+    #h-menu {
+        width: 100%;
+        right: -100%;
+    }
+    .m-item {
+        margin-bottom: 20%;
+    }
+    .h-title {
+        top: 3%;
+    }
+    .menu-list {
+        top: 20%;
+    }
     .top-wrapper {
         background-position: -200px 0;
         transition: 0.4s;
@@ -124,10 +144,6 @@
     }
     .title-style {
         font-size: 30px;
-    }
-    .stylist-img {
-        width: 200px;
-        height: 200px;
     }
     .item-wrap {
         display: block;
@@ -145,20 +161,5 @@
     }
     .salon-info-wrap ul li {
         font-size: 13px;
-    }
-    @media screen and (max-width: 500px) {
-        #h-menu {
-            width: 100%;
-            right: -100%;
-        }
-        .m-item {
-            margin-bottom: 20%;
-        }
-        .h-title {
-            top: 3%;
-        }
-        .menu-list {
-            top: 20%;
-        }
     }
  }
