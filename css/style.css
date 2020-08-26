@@ -212,6 +212,10 @@ header {
 .view {
     width: 100%;
 }
+.tv-text {
+    padding: 10px 0;
+    font-size: 13px;
+}
 /* STYLIST */
 .stylist {
     padding: 150px 0;
@@ -385,6 +389,7 @@ footer {
     background-color: rgba(0, 204, 51, 0.8);
     padding: 10px 20px;
     color: #fff;
+    cursor: pointer;
 }
 .f-reservation-btn:hover {
     background-color: rgba(0, 204, 51, 0.6);
