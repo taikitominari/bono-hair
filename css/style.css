@@ -163,6 +163,7 @@ header {
 .about-text {
     width: 70%;
     margin: 0 auto;
+    font-weight: lighter;
     padding-top: 50px;
     font-size: 20px;
     line-height: 35px;
