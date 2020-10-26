@@ -84,6 +84,7 @@
     font-size: 17px;
     font-weight: lighter;
     display: inline-block;
+
     padding-bottom: 5px;
     margin-bottom: 30%;
     font-weight: bold;
@@ -334,7 +335,7 @@ header {
 }
 .phone-wrap p {
     padding-top: 10px;
-    font-size: 15px;
+    font-size: 18px;
 }
 .reservation-btn {
     background-color:  rgba(0, 204, 51, 0.8);
@@ -347,6 +348,7 @@ header {
 }
 .reservation-btn:hover {
     background-color:  rgba(0, 204, 51, 0.6);
+    transform: ;
     transition: 0.4s;
 }
 .info-wrap {
@@ -401,7 +403,7 @@ footer {
     padding-bottom: 8px;
 }
 .f-phone-p {
-    font-size: 10px;
+    font-size: 13px;
     padding-top: 4px;
 }
 .salon-info-wrap ul li {
