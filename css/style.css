@@ -207,6 +207,7 @@ header {
     padding-top: 30px;   
     line-height: 25px;
     letter-spacing: 1px;
+    font-weight: lighter;
 }
 .street-view {
     padding: 50px 0;
@@ -434,15 +435,14 @@ footer {
     color: rgba(0, 204, 51, 0.8);
 }
 /* footerの下の部分 */
-.f {
-    /* border-top: 1px dashed rgba(0, 204, 51, 0.8); */
+.copyright {
     border-top: 1px solid rgba(0, 204, 51, 0.8);
     padding-left: 5%;
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
 }
-.f p {
+.copyright p {
     font-size: 12px;
     padding-right: 20px;
 }
