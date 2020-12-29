@@ -3,10 +3,10 @@
 // スクロール
     $(function(){
         $('a').click(function(){
-            var speed = 800;
-            var href= $(this).attr("href");
-            var target = $(href == "#" || href == "" ? 'html' : href);
-            var position = target.offset().top;
+            let speed = 800;
+            let href= $(this).attr("href");
+            let target = $(href == "#" || href == "" ? 'html' : href);
+            let position = target.offset().top;
             $("html, body").animate({scrollTop:position}, speed, "swing");
             return false;
         });
@@ -22,9 +22,9 @@
     $(function() {
     $(window).scroll(function (){
         $('.fadein').each(function() {
-            var targetElement = $(this).offset().top;
-            var scroll = $(window).scrollTop();
-            var windowHeight = $(window).height();
+            let targetElement = $(this).offset().top;
+            let scroll = $(window).scrollTop();
+            let windowHeight = $(window).height();
             
             if (scroll > targetElement - windowHeight + 300){
                 $(this).css('opacity','1');
@@ -40,7 +40,7 @@
 
 // width780でメニュー閉じる
     $(window).on("resize", function() {
-        var w = $(window).width();
+        let w = $(window).width();
         if(w < 780) {
             $("body").removeClass("open-menu");
         }

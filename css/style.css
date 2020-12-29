@@ -105,6 +105,7 @@ body.open-menu #h-menu {
 
 /* top & header */
 .top-wrapper {
+    position: relative;
     background-image: url("../img/bonohair.jpeg");
     background-size: cover;
     height: 780px;
@@ -121,8 +122,9 @@ header {
 .header-title {
     line-height: 50px;
     padding-left: 50px;
-    color: #fff;
+    color: rgba(0, 153, 51, 0.8);
     font-size: 18px;
+    font-weight: bolder;
     letter-spacing: 2px;
 }
 .header-list {
@@ -138,6 +140,7 @@ header {
     letter-spacing: 1px;
     line-height: 50px;
     display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .header-list li a:hover {
     background-color: rgba(0, 153, 51, 0.8);
@@ -156,21 +159,27 @@ header {
     background-color: rgba(0, 153, 51, 0.8);
     transition: 0.4s;
 }
-/* ABOUT style */
+/* ABOUT */
 .about {
     padding: 180px 0;
     background-color: rgba(242,242,242, 0.8);
+}
+.main-title {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 15px;
+    color:  rgba(0, 153, 51, 0.8);
 }
 .about-text {
     width: 70%;
     margin: 0 auto;
     font-weight: lighter;
-    padding-top: 50px;
+    padding-top: 30px;
     font-size: 20px;
     line-height: 35px;
 }
 
-/* HIGHLIGHTS style */
+/* HIGHLIGHTS */
 .highlights {
     padding: 250px 0 50px 0;
 }
@@ -331,7 +340,7 @@ header {
     flex: 1;
     text-align: center;
 }
-.phone-wrap h2 {
+.phone-wrap h3 {
     font-size: 30px;
 }
 .phone-wrap p {
@@ -412,8 +421,9 @@ footer {
 .f-content-wrap ul li {
     margin-bottom: 20px;
 }
-.f-content-wrap ul li a{
-    color: #fff;
+.f-content{
+    cursor: pointer;
+    color:  #fff;
 }
 .f-content:hover{
     transition: 0.4s;
@@ -428,13 +438,12 @@ footer {
 }
 .f-sns-item {
     cursor: pointer;
-    color: #fff;
+    color:  #fff;
 }
 .f-sns-item:hover {
     transition: 0.4s;
     color: rgba(0, 204, 51, 0.8);
 }
-/* footerの下の部分 */
 .copyright {
     border-top: 1px solid rgba(0, 204, 51, 0.8);
     padding-left: 5%;
