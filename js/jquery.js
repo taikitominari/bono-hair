@@ -33,16 +33,4 @@
         });
     });
     });
-// h-menu 項目選択したら閉じる
-    $('.m-item').click(function() {
-        $("body").removeClass("open-menu");
-    });
-
-// width780でメニュー閉じる
-    $(window).on("resize", function() {
-        let w = $(window).width();
-        if(w < 780) {
-            $("body").removeClass("open-menu");
-        }
-    });
-}
+    
