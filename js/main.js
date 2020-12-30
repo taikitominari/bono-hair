@@ -14,7 +14,9 @@
 
     // m-itemを押したらメニューが閉じる
     const mItem = document.getElementsByClassName('m-item');
+    console.log(mItem);
     const itemArray = Array.from(mItem);
+    console.log(itemArray);
 
     itemArray.forEach(function(item) {
         item.addEventListener('click', () =>{
