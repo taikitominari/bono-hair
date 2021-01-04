@@ -1,5 +1,10 @@
 
 'use strict';
+    // トップのfadein(ふわっと表示)
+    const topFadein = document.getElementById('fadein');
+    window.onload = function() {
+       topFadein.animate([{opacity: '0'}, {opacity: '1'}], 1500);
+    };
 
     // メニューの開閉
     const show = document.getElementById('show');
@@ -14,9 +19,7 @@
 
     // m-itemを押したらメニューが閉じる
     const mItem = document.getElementsByClassName('m-item');
-    console.log(mItem);
     const itemArray = Array.from(mItem);
-    console.log(itemArray);
 
     itemArray.forEach(function(item) {
         item.addEventListener('click', () =>{
@@ -28,4 +31,6 @@
     window.addEventListener('resize', () => {
         document.body.className = '';
     });
+
+
     

@@ -8,9 +8,6 @@
     transform: translateY(20px);
     transition: all 1s;
   }
-.top-fadein {
-    display: none;
-}
 /* common-style */
 .container {
     margin-left: 3%;
