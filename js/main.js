@@ -2,9 +2,9 @@
 'use strict';
     // トップのfadein(ふわっと表示)
     const topFadein = document.getElementById('fadein');
-    window.onload = function() {
-       topFadein.animate([{opacity: '0'}, {opacity: '1'}], 1500);
-    };
+    window.addEventListener('DOMContentLoaded', () => {
+        topFadein.animate([{opacity: '0'}, {opacity: '1'}], 800);
+    });
 
     // メニューの開閉
     const show = document.getElementById('show');
