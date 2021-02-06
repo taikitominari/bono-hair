@@ -7,14 +7,14 @@
     });
 
     // メニューの開閉
-    const show = document.getElementById('show');
-    const hide = document.getElementById('hide');
+    const showMenu = document.getElementById('show');
+    const closeMenu = document.getElementById('shadow');
 
-    show.addEventListener('click', function() {
-        document.body.className = 'open-menu';
+    showMenu.addEventListener('click', function() {
+        document.body.classList.add('open-menu');
     });
-    hide.addEventListener('click', function() {
-        document.body.className = '';
+    closeMenu.addEventListener('click', function() {
+        document.body.classList.remove('open-menu');
     });
 
     // m-itemを押したらメニューが閉じる
