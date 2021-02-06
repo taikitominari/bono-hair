@@ -40,6 +40,10 @@
     }
  }
  @media screen and (max-width: 780px) {
+    #h-menu {
+        width: 40%;
+        right: -40%;
+    }
     .container {
         margin-left: 5%;
         margin-right: 5%;
@@ -129,10 +133,6 @@
  }
  
  @media screen and (max-width: 500px) {
-    #h-menu {
-        width: 100%;
-        right: -100%;
-    }
     .m-item {
         margin-bottom: 20%;
     }
@@ -177,6 +177,28 @@
         font-size: 13px;
     }
     .salon-info-wrap ul li {
+        font-size: 13px;
+    }
+ }
+
+ @media screen and (max-width: 450px) {
+    .menu-list {
+        padding-top: 30px;
+        letter-spacing: 1px;
+    }
+    .bono-logo {
+        font-size: 15px;
+    }
+    .m-item  {
+        font-size: 15px;
+    }
+    #h-menu {
+        width: 50%;
+        right: -50%;
+    }
+ }
+ @media screen and (max-width: 300px) {
+    .m-item {
         font-size: 13px;
     }
  }
