@@ -1,5 +1,5 @@
-
 'use strict';
+
     // トップのfadein(ふわっと表示)
     const topFadein = document.getElementById('fadein');
     window.addEventListener('DOMContentLoaded', () => {
