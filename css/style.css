@@ -101,7 +101,9 @@ body.open-menu #h-menu {
 .m-item:hover {
     color: rgba(0, 153, 51, 0.8);
     transition: 0.4s;
-    transform: translateY(-3px);
+    transform: translateY(-2px);
+    border: none;
+
 }
 
 /* top & header */
@@ -145,8 +147,8 @@ header {
     display: inline-block;
 }
 .header-list li a:hover {
-    background-color: rgba(0, 153, 51, 0.8);
-    transition: 1s;
+    color: rgba(0, 153, 51, 0.8);
+    transition: 0.4s;
 }
 .h-reservation {
     background-color: rgba(0, 0, 0, 0.5);
