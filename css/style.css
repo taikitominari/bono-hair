@@ -214,10 +214,10 @@ header {
 }
 .hl-shop-info {
     line-height: 25px;
-    font-size: 16px;
+    font-size: 18px;
 }
 .hl-text {
-    font-size: 15px;
+    font-size: 16px;
     padding-top: 30px;   
     line-height: 25px;
     letter-spacing: 1px;
@@ -317,7 +317,7 @@ header {
     position: relative;
 }
 .item-wrap h2 {
-    font-size: 14px;
+    font-size: 15px;
 }
 .m-text {
     font-size: 18px !important;
@@ -326,9 +326,10 @@ header {
     position: absolute;
     right: 0;
     font-weight: bold;
+    font-size: 18px;
 }
 .menu-comment {
-    font-size: 0.8em;
+    font-size: 0.9em;
 
 }
 /* reservation */
@@ -359,7 +360,7 @@ header {
     margin-top: 30px;
     color: #fff;
     display: inline-block;
-    font-size: 19px;
+    font-size: 25px;
     letter-spacing: 1px;
     border-radius: 5px;
 }
@@ -420,11 +421,12 @@ footer {
     padding-bottom: 8px;
 }
 .f-phone-p {
-    font-size: 15px;
+    font-size: 13px;
     padding-top: 4px;
 }
 .salon-info-wrap ul li {
     padding-bottom: 20px;
+    font-size: 16px;
 }
 .f-content-wrap ul li {
     margin-bottom: 20px;
@@ -432,6 +434,7 @@ footer {
 .f-content{
     cursor: pointer;
     color:  #fff;
+    font-size: 16px;
 }
 .f-content:hover{
     transition: 0.4s;
@@ -442,7 +445,7 @@ footer {
 }
 .f-bono-room {
     color: #fff;
-    font-size: 12px;
+    font-size: 16px;
 }
 .f-sns-item {
     cursor: pointer;
