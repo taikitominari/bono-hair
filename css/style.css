@@ -171,7 +171,7 @@ header {
 .main-title {
     text-align: center;
     padding-top: 30px;
-    font-size: 15px;
+    font-size: 18px;
     color:  rgba(0, 153, 51, 0.8);
 }
 .about-text {
@@ -188,6 +188,7 @@ header {
     padding: 250px 0 50px 0;
 }
 .subtitle {
+    font-size: 18px;
     text-align: center;
     padding: 40px 0 60px 0; 
 }
@@ -230,7 +231,7 @@ header {
 }
 .tv-text {
     padding: 10px 0;
-    font-size: 13px;
+    font-size: 18px;
 }
 /* STYLIST */
 .stylist {
@@ -274,12 +275,12 @@ header {
 }
 .sl-list li {
     padding-bottom: 10px;
-    font-size: 13px;
+    font-size: 15px;
 }
 .sl-text {
     padding-top: 20px;
     line-height: 30px;
-    font-size: 14px;
+    font-size: 18px;
     letter-spacing: 1px;
 }
 /* basic-menu */
@@ -327,7 +328,8 @@ header {
     font-weight: bold;
 }
 .menu-comment {
-    font-size: 0.7em;
+    font-size: 0.8em;
+
 }
 /* reservation */
 .reservation {
@@ -349,7 +351,7 @@ header {
 }
 .phone-wrap p {
     padding-top: 10px;
-    font-size: 18px;
+    font-size: 20px;
 }
 .reservation-btn {
     background-color:  rgba(0, 204, 51, 0.8);
@@ -418,7 +420,7 @@ footer {
     padding-bottom: 8px;
 }
 .f-phone-p {
-    font-size: 13px;
+    font-size: 15px;
     padding-top: 4px;
 }
 .salon-info-wrap ul li {
@@ -458,7 +460,7 @@ footer {
     display: flex;
 }
 .copyright p {
-    font-size: 12px;
+    font-size: 15px;
     padding-right: 20px;
 }
 .fa-copyright {
