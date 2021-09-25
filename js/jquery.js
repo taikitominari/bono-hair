@@ -1,7 +1,7 @@
 'use strict';
 // スクロール
     $(function(){
-        $('a').click(function(){
+        $('a[href^="#"]').click(function(){
             let speed = 800;
             let href = $(this).attr('href');
             let target = $(href == "#" || href == "" ? 'html' : href);
