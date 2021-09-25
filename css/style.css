@@ -389,7 +389,7 @@ header {
     transition: 0.4s;
 }
 .info-wrap p:nth-child(1) {
-    padding-bottom: 50px;
+    font-size: 25px;
 }
 /* map */
 .map {
