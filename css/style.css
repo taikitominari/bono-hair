@@ -374,6 +374,19 @@ header {
 }
 .info-wrap p {
     font-size: 22px;
+    padding-bottom: 10px;
+}
+.info-wrap a {
+    font-size: 22px;
+    color: #fff;
+    background-color:  rgba(0, 204, 51, 0.8);
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.info-wrap a:hover {
+    background-color:  rgba(0, 204, 51, 0.6);
+    transition: 0.4s;
 }
 .info-wrap p:nth-child(1) {
     padding-bottom: 50px;
