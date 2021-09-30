@@ -342,6 +342,7 @@ header {
     display: flex;
     padding-top: 100px;
     justify-content: center;
+    text-align: center;
 }
 .phone-wrap {
     flex: 1;
@@ -357,7 +358,7 @@ header {
 .reservation-btn {
     background-color:  rgba(0, 204, 51, 0.8);
     padding: 20px 40px;
-    margin-top: 30px;
+    margin-top: 15px;
     color: #fff;
     display: inline-block;
     font-size: 25px;
@@ -376,17 +377,22 @@ header {
     font-size: 22px;
     padding-bottom: 10px;
 }
-.info-wrap a {
+.bono_sns {
+    padding-top: 20px;
+}
+.bono_sns a {
     font-size: 22px;
     color: #fff;
     background-color:  rgba(0, 204, 51, 0.8);
-    padding: 15px;
-    margin-top: 15px;
+    padding: 20px 40px;
     border-radius: 5px;
 }
 .info-wrap a:hover {
     background-color:  rgba(0, 204, 51, 0.6);
     transition: 0.4s;
+}
+.bono_sns {
+    margin-right: 5px;
 }
 .info-wrap p:nth-child(1) {
     font-size: 25px;

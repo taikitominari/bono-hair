@@ -103,13 +103,16 @@
         display: block;
     }
     .info-wrap {
-        padding-top: 60px;
+        padding-top: 80px;
     }
     .info-wrap p {
         font-size: 20px;
     }
     .info-wrap p:nth-child(1) {
         padding-bottom: 10px;
+    }
+    .reservation-wrap {
+        padding-top: 60px;
     }
     .reservation-btn {
         margin-top: 10px;
@@ -183,9 +186,6 @@
     }
     .sl-text {
         line-height: 25px;
-    }
-    .reservation {
-        padding-bottom: 50px;
     }
     .salon-info-wrap ul li {
         font-size: 15px;
